@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+html, body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#app {
+    height: 100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px; /* 宽度 */
+    height: 8px; /* 高度 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(159, 164, 166, .9); /* 滑块背景颜色 */
+    border-radius: 5px; /* 滑块圆角半径 */
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(63, 129, 247, .3)
+}
