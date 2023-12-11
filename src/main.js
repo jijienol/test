@@ -16,6 +16,7 @@ import {Boot} from '@wangeditor/editor'
 //修改logo
 export function changeIconTitle(src) {
     const changeFavicon = link => {
+        console.log(111)
         let $favicon = document.querySelector('link[rel="icon"]');
         if ($favicon !== null) {
             $favicon.href = link;
